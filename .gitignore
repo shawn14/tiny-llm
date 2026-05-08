@@ -1,0 +1,26 @@
+# Trained model weights — regeneratable by running train_*.py.
+# Treat these as build artifacts, not source.
+*.pt
+
+# Downloaded / generated corpora
+input.txt
+input_v4.txt
+complete_shakespeare.txt
+marlowe_plays.txt
+corpus.txt
+
+# Per-checkpoint sample logs and training stdout
+samples*.txt
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+
+# Claude Code project state
+.claude/
